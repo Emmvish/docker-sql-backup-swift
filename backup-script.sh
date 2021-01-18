@@ -1,5 +1,5 @@
 #! /bin/bash
-backup_list=( $(ls /root/snipeit-backups) )
+backup_list=( $(ls /root/backups) )
 length=${#backup_list[@]}
 now=$(date +'%d-%m-%Y')
 name="backup-${now}.sql"
